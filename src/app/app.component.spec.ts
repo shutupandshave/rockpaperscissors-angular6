@@ -27,7 +27,7 @@ describe('Rock Paper Scissors', () => {
     it('reset button should hide the results', () => {
         const fixture = TestBed.createComponent(AppComponent);
         fixture.detectChanges();
-        // const results = fixture.debugElement.query(By.css('.results'));
+        const results = fixture.debugElement.query(By.css('.results'));
         // expect(results).anything();
     });
 
