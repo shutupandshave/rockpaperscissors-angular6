@@ -1,0 +1,43 @@
+.container-fluid {
+  background-color: #000 !important;
+  min-height: 100vh;
+  color: orange;
+}
+
+header {
+  padding: 2rem;
+  background: white;
+}
+
+.card-body button, .card-body i {
+  font-size: 4em;
+  margin-top: 1rem;
+}
+
+.card {
+  min-height: 14rem;
+  margin-top: 1rem;
+}
+
+.result {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width : 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  header {
+    padding: .5rem;
+  }
+  .card-body button, .card-body i {
+    font-size: 2em;
+    margin-top: 0;
+  }
+
+  .card {
+    min-height: 9rem;
+    margin-top: 1rem;
+  }
+}
