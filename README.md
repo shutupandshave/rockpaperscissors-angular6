@@ -1,6 +1,6 @@
 # Improvements I'd like to make
-I would like to check to see if the player is mashing one button, and then hard counter it until they stop.
-I could split it out but it's so simple I don't see the point as it's so simple.  
+I would like to check to see if the player is mashing one button, and then hard counter it until they stop.  
+I could split out some of the functionality but it's so simple I don't see the point.  
 
 # JLRPS
 
