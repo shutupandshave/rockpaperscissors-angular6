@@ -19,7 +19,7 @@ header {
   margin-top: 1rem;
 }
 
-.result {
+.results {
   text-align: center;
   margin-top: 2rem;
 }
@@ -28,9 +28,11 @@ header {
   h1 {
     font-size: 1.5rem;
   }
+
   header {
     padding: .5rem;
   }
+
   .card-body button, .card-body i {
     font-size: 2em;
     margin-top: 0;
@@ -38,6 +40,10 @@ header {
 
   .card {
     min-height: 9rem;
+    margin-top: 1rem;
+  }
+  
+  .results {
     margin-top: 1rem;
   }
 }
