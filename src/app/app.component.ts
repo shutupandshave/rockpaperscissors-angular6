@@ -38,5 +38,6 @@ export class AppComponent {
 
     resetScores(): void {
         this.scoresArray = [0, 0];
+        this.isResultShow = false;
     }
 }

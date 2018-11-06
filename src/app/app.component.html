@@ -9,7 +9,7 @@
   <div class="row">
     <div class="col-lg-6">
       <div class="card">
-        <h4 class="h4 card-header">
+        <h4 class="h4 card-header text-success">
           Player <span class="badge badge-success">{{ scoresArray[0] }}</span>
         </h4>
         <div class="card-body">
@@ -21,10 +21,10 @@
     </div>
     <div class="col-lg-6">
       <div class="card">
-        <h4 class="h4 card-header">
+        <h4 class="h4 card-header text-danger">
           Computer <span class="badge badge-danger">{{ scoresArray[1] }}</span>
         </h4>
-        <div class="card-body">
+        <div class="card-body text-danger">
           <div *ngIf="computerSelected !== -1" class="flex-container flex-center" >
             <i *ngIf="computerSelected === 0" class="fa fa-hand-rock-o"></i>
             <i *ngIf="computerSelected === 1"  class="fa fa-hand-paper-o"></i>
@@ -43,7 +43,7 @@
       <ng-template ngSwitchDefault> </ng-template>
     </div>
     <p> Pick again to continue or </p>
-    <button (click)="resetScores()">Reset score</button>
+    <button (click)="resetScores()" class="btn btn-primary">Reset score</button>
   </div>
 
 </div>
