@@ -1,3 +1,7 @@
+# Improvements I'd like to make
+I would like to check to see if the player is mashing one button, and then hard counter it until they stop.
+I could split it out but it's so simple I don't see the point as it's so simple.  
+
 # JLRPS
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.6.
@@ -14,7 +18,7 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
