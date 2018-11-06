@@ -5,7 +5,7 @@ import { By } from '@angular/platform-browser';
 describe('Rock Paper Scissors', () => {
     beforeEach(async(() => {
         const fixture = TestBed.createComponent(AppComponent);
-        const component = fixture.componentInstance;
+        const component = this.fixture.debugElement.componentInstance;
 
         fixture.detectChanges();
         TestBed.configureTestingModule({
@@ -16,14 +16,12 @@ describe('Rock Paper Scissors', () => {
     }));
 
     it('should create the app', () => {
-        const app = this.fixture.debugElement.componentInstance;
-        expect(app).toBeTruthy();
+        expect(this.component).toBeTruthy();
     });
 
     it('should render title in a h1 tag', () => {
         this.fixture.detectChanges();
-        const compiled = this.fixture.debugElement.nativeElement;
-        expect(compiled.querySelector('h1').textContent).toContain('Rock, paper, scissors - let\'s play!');
+        expect(this.component.querySelector('h1').textContent).toContain('Rock, paper, scissors - let\'s play!');
     });
 
     it('reset button should hide the results', () => {
